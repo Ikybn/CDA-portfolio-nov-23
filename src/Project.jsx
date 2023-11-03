@@ -1,16 +1,14 @@
-import Navbar from "./Components/Navbar";
+import Nav from "./components/Nav";
 import "./index.css";
-import Project from "./Components/Projects";
-import ActionSection from "./Components/ActionSection";
-import Footer from "./Components/Footer";
+import ListProjects from "./components/ListProjects";
+import ActionSection from "./components/ActionSection";
+import Footer from "./components/Footer";
 
 function Project() {
-
-
   return (
     <>
-      <Navbar />
-      <Project />
+      <Nav /> 
+      <ListProjects />
       <ActionSection />
       <Footer />
     </>
